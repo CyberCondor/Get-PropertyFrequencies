@@ -3,6 +3,7 @@ PowerShell: Return Frequencies of Property Values Occurrence in PSObject
 
 Add to PATH e.g.:
 ```PowerShell
+#Get Relevant PATH(s)
 $env:PSModulePath -split ";"
 # User env e.g.,
 mkdir "~\Documents\WindowsPowerShell\Modules\Get-PropertyFrequencies"
