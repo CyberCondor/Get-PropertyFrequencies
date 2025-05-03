@@ -14,3 +14,10 @@ mkdir "C:\Program Files\WindowsPowerShell\Modules\Get-PropertyFrequencies"
 move .\Get-PropertyFrequencies.psd1 "C:\Program Files\WindowsPowerShell\Modules\Get-PropertyFrequencies\"
 move .\Get-PropertyFrequencies.psm1 "C:\Program Files\WindowsPowerShell\Modules\Get-PropertyFrequencies\"
 ```
+
+Call Get-PropertyFrequencies e.g.:
+```PowerShell
+Get-PropertyFrequencies "Property" $Object
+Get-PropertyFrequencies "Department" $Users
+Get-PropertyFrequencies "OS" $Computers
+```
