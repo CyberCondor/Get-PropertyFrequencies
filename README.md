@@ -5,6 +5,7 @@ Add to PATH e.g.:
 ```PowerShell
 #Get Relevant PATH(s)
 $env:PSModulePath -split ";"
+
 # User env e.g.,
 mkdir "~\Documents\WindowsPowerShell\Modules\Get-PropertyFrequencies"
 move .\Get-PropertyFrequencies.psd1 "~\Documents\WindowsPowerShell\Modules\Get-PropertyFrequencies\"
